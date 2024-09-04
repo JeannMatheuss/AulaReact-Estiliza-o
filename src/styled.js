@@ -47,3 +47,15 @@ export const FooterRodape = styled.footer`
     }
 
 `
+
+export const MainGeral = styled.main`
+    flex-grow: 1;
+    width: 100%;
+    padding: 30px;
+    
+    h1{
+        text-align: center;
+        color: darkred;
+    }
+
+`
