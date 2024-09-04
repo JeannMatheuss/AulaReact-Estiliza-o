@@ -5,6 +5,7 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom' // responsavel por criar uma lista de rotas / alguma coisa
 import Home from './routes/Home/index.jsx'
 import Produtos from './routes/Produtos/index.jsx'
+import GlobalStyled from './global-styled.js'
 
 const router = createBrowserRouter([
   {
@@ -26,5 +27,6 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}/>
+    <GlobalStyled/>
   </StrictMode>,
 )
