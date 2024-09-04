@@ -9,10 +9,18 @@ export const NavMenu = styled.nav`
     justify-content: center;
     align-items: center;
 
+    &:hover{
+        background-color: darkred;
+    }
+
     a{
         text-decoration: none;
         color: #fff;
         font-size: 1.3em;
+    }
+
+    a:hover{
+        color: yellow;
     }
 
     span{
@@ -20,5 +28,22 @@ export const NavMenu = styled.nav`
         font-size: 1.5em;
     }
 
+
+`
+
+export const FooterRodape = styled.footer`
+    width: 100%;
+    min-height: 5vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #422;
+
+    p{
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+    }
 
 `
